@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+    color: #333;
+}
+
+.instagram-profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.bio-info {
+    margin-left: 20px;
+}
+
+.bio-info h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #262626;
+}
+
+.bio-description {
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.profile-stats .stat {
+    text-align: center;
+}
+
+.profile-stats .stat span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #262626;
+}
+
+.edit-profile {
+    margin-top: 10px;
+}
+
+.edit-profile button {
+    padding: 8px 16px;
+    background-color: #bb78e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-profile button:hover {
+    background-color: #bb78e2;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.grid-item h3 {
+    margin-top: 0;
+    color: #262626;
+}
+
+.grid-item p {
+    color: #8e8e8e;
+}
